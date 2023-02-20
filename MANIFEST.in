@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zebra_iot_connector *.css
+recursive-include zebra_iot_connector *.csv
+recursive-include zebra_iot_connector *.html
+recursive-include zebra_iot_connector *.ico
+recursive-include zebra_iot_connector *.js
+recursive-include zebra_iot_connector *.json
+recursive-include zebra_iot_connector *.md
+recursive-include zebra_iot_connector *.png
+recursive-include zebra_iot_connector *.py
+recursive-include zebra_iot_connector *.svg
+recursive-include zebra_iot_connector *.txt
+recursive-exclude zebra_iot_connector *.pyc
